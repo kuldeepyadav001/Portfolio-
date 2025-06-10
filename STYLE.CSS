@@ -1,4 +1,4 @@
-
+/* ...existing code... */
         :root {
             --primary: #262d54;
             --secondary: #7c3aed;
@@ -237,22 +237,24 @@
         }
 
         .skill-chip {
-            background: #1f2440;
+            background: var(--secondary);
             color: #fff;
-            /* Changed to white */
             border: 2px solid var(--secondary);
             border-radius: 22px;
             padding: 12px 26px;
             font-size: 1.13em;
             font-weight: 500;
             box-shadow: 0 2px 8px #7c3aed22;
-            transition: background 0.2s, color 0.2s, border 0.2s;
+            transition: background 0.2s, color 0.2s, border 0.2s, transform 0.2s;
+            cursor: pointer;
         }
 
         .skill-chip:hover {
-            background: var(--secondary);
-            color: var(--white);
+            background: var(--white);
+            color: var(--secondary);
             border-color: var(--white);
+            transform: scale(1.08);
+            box-shadow: 0 2px 12px #7c3aed55;
         }
 
         /* Projects & Resume Section */
@@ -390,6 +392,7 @@
             .projects-list {
                 flex-direction: column;
             }
+            
 
             .header-nav {
                 flex-direction: column;
