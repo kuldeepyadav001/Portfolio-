@@ -73,6 +73,7 @@ header {
     align-items: center;
     margin-bottom: 12px;
 }
+
 .profile-logo-img {
     width: 90px;
     height: 90px;
@@ -98,6 +99,7 @@ header {
         height: 70px;
     }
 }
+
 @media (max-width: 500px) {
     .profile-logo-img {
         width: 48px;
@@ -213,7 +215,7 @@ header {
     color: var(--white);
     padding: 8px 18px;
     border-radius: 6px;
-    text-decoration:none;
+    text-decoration: none;
     font-weight: 600;
     transition: background 0.2s, color 0.2s;
 }
@@ -305,6 +307,7 @@ footer {
     .container {
         max-width: 98vw;
     }
+
     .projects-list {
         gap: 18px;
     }
@@ -315,18 +318,22 @@ footer {
         flex-direction: column;
         gap: 18px;
     }
+
     .projects-list {
         flex-direction: column;
         align-items: center;
     }
+
     .project-card {
         max-width: 98vw;
         width: 100%;
     }
+
     .skills-list {
         gap: 10px;
-    
+
     }
+
     .profile-logo-img {
         width: 70px;
         height: 70px;
@@ -337,37 +344,44 @@ footer {
     html {
         font-size: 16px;
     }
+
     .container {
         width: 99vw;
         padding: 0 2vw;
     }
+
     .section-title {
         font-size: 2.2rem;
         margin: 2px 0 12px 0;
     }
+
     .header-nav {
-    
+
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(120px, 180px));
     }
+
     .project-card {
         width: 100%;
         padding: 16px 10px;
         font-size: 0.98em;
     }
+
     .skills-list {
-     
-        display:grid;
+
+        display: grid;
         grid-template-columns: repeat(auto-fit, minmax(120px, 10fr));
         gap: 12px;
-     text-align: center;
+        text-align: center;
 
     }
+
     .resume-link {
-       height: 300px;
+        height: 300px;
         padding: 10px 50px;
         font-size: 1.3rem;
     }
+
     .social-links img {
         width: 36px;
         height: 36px;
@@ -379,38 +393,44 @@ footer {
     .container {
         padding: 0 1vw;
     }
+
     .section-title {
         font-size: 2rem;
     }
+
     .project-card {
-        
+
         width: 95%;
         padding: 10px 10px;
-        
-
     }
+
     .profile-logo-img {
         width: 48px;
         height: 48px;
     }
+
     .skills-list {
         gap: 8px;
         margin: 7px;
-        
-       
-      
     }
+
     .social-links img {
         width: 28px;
         height: 28px;
         padding: 3px;
     }
+
     .resume-link {
         height: 300px;
         padding: 10px 50px;
         font-size: 1.3rem;
-    
 
+
+    }
+    .header-nav {
+    
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 180px));
     }
 }
 
@@ -418,37 +438,48 @@ footer {
     .container {
         padding: 0 1vw;
     }
+
     .section-title {
         font-size: 2rem;
     }
+
     .project-card {
-        
+
         width: 95%;
         padding: 10px 10px;
-        
+
 
     }
+
     .profile-logo-img {
         width: 48px;
         height: 48px;
     }
+
     .skills-list {
         gap: 8px;
         margin: 7px;
-        
-       
-      
+
+
+
     }
+
     .social-links img {
         width: 28px;
         height: 28px;
         padding: 3px;
     }
+
     .resume-link {
         height: 300px;
         padding: 10px 50px;
         font-size: 1.3rem;
-    
 
+
+    }
+    .header-nav {
+    
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 180px));
     }
 }
