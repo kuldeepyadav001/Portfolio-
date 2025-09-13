@@ -1,4 +1,5 @@
 /* Root variables for easy theme changes */
+/* Root variables for easy theme changes */
 :root {
     --primary: #181c2f;
     --secondary: #7c3aed;
@@ -107,7 +108,7 @@ header {
 /* Section titles */
 .section-title {
     font-size: 2rem;
-    margin: 32px 0 18px 0;
+    margin: 36px 0 18px 0;
     text-align: center;
     color: var(--secondary);
     font-weight: 700;
@@ -141,7 +142,7 @@ header {
 .skills-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 10px;
     justify-content: center;
     margin-bottom: 10px;
 }
@@ -172,8 +173,8 @@ header {
 }
 
 .skill-chip:active {
-    filter: brightness(0.85);
-    transform: scale(0.97);
+    filter: brightness(0.90);
+    transform: scale(0.90);
 }
 
 /* Projects & Resume Section */
@@ -190,10 +191,10 @@ header {
     border-radius: 16px;
     padding: 26px 20px;
     flex: 1 1 270px;
-    min-width: 220px;
+    min-width: 200px;
     max-width: 340px;
     box-shadow: 0 2px 12px #7c3aed22;
-    transition: transform 0.2s, border 0.2s;
+    transition: transform 0.2s, border 0.3s;
     color: var(--text);
     margin-bottom: 18px;
 }
@@ -212,7 +213,7 @@ header {
     color: var(--white);
     padding: 8px 18px;
     border-radius: 6px;
-    text-decoration: none;
+    text-decoration:none;
     font-weight: 600;
     transition: background 0.2s, color 0.2s;
 }
@@ -284,7 +285,7 @@ header {
 .social-links img:hover,
 .social-links img:focus {
     background: var(--secondary);
-    transform: scale(1.16) rotate(-8deg);
+    transform: scale(1.16) rotate(-360deg);
     box-shadow: 0 4px 24px #7c3aed88;
     outline: none;
 }
@@ -320,10 +321,11 @@ footer {
     }
     .project-card {
         max-width: 98vw;
-        width: 98vw;
+        width: 100%;
     }
     .skills-list {
         gap: 10px;
+    
     }
     .profile-logo-img {
         width: 70px;
@@ -340,24 +342,31 @@ footer {
         padding: 0 2vw;
     }
     .section-title {
-        font-size: 1.3rem;
-        margin: 24px 0 12px 0;
+        font-size: 2.2rem;
+        margin: 2px 0 12px 0;
     }
     .header-nav {
-        flex-direction: column;
-        gap: 8px;
+    
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 180px));
     }
     .project-card {
-        padding: 16px 8px;
+        width: 100%;
+        padding: 16px 10px;
         font-size: 0.98em;
     }
     .skills-list {
-        flex-direction: column;
-        align-items: center;
+     
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 10fr));
+        gap: 12px;
+     text-align: center;
+
     }
     .resume-link {
-        padding: 8px 14px;
-        font-size: 0.95rem;
+       height: 300px;
+        padding: 10px 50px;
+        font-size: 1.3rem;
     }
     .social-links img {
         width: 36px;
@@ -371,18 +380,25 @@ footer {
         padding: 0 1vw;
     }
     .section-title {
-        font-size: 1.1rem;
+        font-size: 2rem;
     }
     .project-card {
-        min-width: unset;
-        padding: 10px 2px;
+        
+        width: 95%;
+        padding: 10px 10px;
+        
+
     }
     .profile-logo-img {
         width: 48px;
         height: 48px;
     }
     .skills-list {
-        gap: 6px;
+        gap: 8px;
+        margin: 7px;
+        
+       
+      
     }
     .social-links img {
         width: 28px;
@@ -390,7 +406,10 @@ footer {
         padding: 3px;
     }
     .resume-link {
-        padding: 6px 8px;
-        font-size: 0.9rem;
+        height: 300px;
+        padding: 10px 50px;
+        font-size: 1.3rem;
+    
+
     }
 }
