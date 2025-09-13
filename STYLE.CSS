@@ -413,3 +413,42 @@ footer {
 
     }
 }
+
+@media (max-width: 300px) {
+    .container {
+        padding: 0 1vw;
+    }
+    .section-title {
+        font-size: 2rem;
+    }
+    .project-card {
+        
+        width: 95%;
+        padding: 10px 10px;
+        
+
+    }
+    .profile-logo-img {
+        width: 48px;
+        height: 48px;
+    }
+    .skills-list {
+        gap: 8px;
+        margin: 7px;
+        
+       
+      
+    }
+    .social-links img {
+        width: 28px;
+        height: 28px;
+        padding: 3px;
+    }
+    .resume-link {
+        height: 300px;
+        padding: 10px 50px;
+        font-size: 1.3rem;
+    
+
+    }
+}
