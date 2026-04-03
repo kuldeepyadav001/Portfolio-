@@ -60,16 +60,9 @@ const PROJECTS = [
     link: null,
     linkText: null
   },
+  
   {
     number: "04",
-    title: "CosmicNum — Guess the Number",
-    desc: "Interactive web game where players guess a secret number. Clean UI with score tracking and difficulty levels.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    link: "https://cosmicnum.netlify.app/",
-    linkText: "View Live"
-  },
-  {
-    number: "05",
     title: "Personal Portfolio",
     desc: "Web portfolio showcasing projects, skills, and contact information with clean, responsive design.",
     tags: ["HTML", "CSS"],
