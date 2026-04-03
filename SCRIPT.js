@@ -65,7 +65,7 @@ const PROJECTS = [
     number: "04",
     title: "Personal Portfolio",
     desc: "Web portfolio showcasing projects, skills, and contact information with clean, responsive design.",
-    tags: ["HTML", "CSS"],
+    tags: ["HTML", "CSS"," JavaScript"],
     link: "https://kuldeepf.netlify.app/",
     linkText: "View Live"
   },
