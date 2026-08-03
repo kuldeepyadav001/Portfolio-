@@ -2,71 +2,85 @@ const SKILLS = [
   {
     category: "Languages",
     items: [
-      { name: "C", icon: "⚙️", level: "Competent" },
       { name: "Java", icon: "☕", level: "Competent" },
       { name: "Python", icon: "🐍", level: "Competent" },
-      { name: "JavaScript", icon: "⚡", level: "Competent" },
     ],
   },
   {
-    category: "Frameworks & Libraries",
+    category: "Frameworks",
     items: [
-      { name: "Spring Boot", icon: "🌿", level: "Developing" },
+      { name: "Spring Boot", icon: "🌿", level: "Competent" },
       { name: "Flask", icon: "🔥", level: "Competent" },
     ],
   },
   {
     category: "Frontend",
-    items: [
-      { name: "HTML5", icon: "🌐", level: "Competent" },
-      { name: "CSS3", icon: "🎨", level: "Competent" },
-      { name: "JavaScript", icon: "⚡", level: "Competent" },
-    ],
+    items: [{ name: "React", icon: "⚛️", level: "Competent" }],
   },
   {
-    category: "Tools & Platforms",
+    category: "Tools",
     items: [
       { name: "Git", icon: "🔀", level: "Competent" },
       { name: "GitHub", icon: "🐙", level: "Competent" },
-      { name: "API Integration", icon: "🔌", level: "Competent" },
-      { name: "JSON", icon: "📄", level: "Competent" },
+      { name: "Postman", icon: "📮", level: "Competent" },
+      { name: "Docker", icon: "🐳", level: "Developing" },
     ],
+  },
+  {
+    category: "Libraries",
+    items: [
+      { name: "Pandas", icon: "🐼", level: "Competent" },
+      { name: "NumPy", icon: "🔢", level: "Competent" },
+      { name: "Scikit-learn", icon: "🤖", level: "Developing" },
+      { name: "Matplotlib", icon: "📊", level: "Competent" },
+    ],
+  },
+  {
+    category: "Database",
+    items: [{ name: "MongoDB", icon: "🍃", level: "Competent" }],
   },
 ];
 
 const PROJECTS = [
   {
     number: "01",
-    title: "Clara — Study Companion",
-    desc: "A student-friendly web app with subject notes, progress tracking, reminders, and AI agent interaction via API calls. CRUD operations managed through JSON.",
-    tags: ["HTML", "CSS", "JavaScript", "Python", "Flask", "JSON", "API"],
-    link: null,
-    linkText: null,
+    title: "SwiftMove — Real-Time Logistics & Booking Platform",
+    desc: "Full-stack logistics platform connecting shippers and drivers with live GPS tracking, dynamic fare calculation via road-routing APIs, OTP-verified delivery confirmation, and real-time job/status updates over WebSockets, with integrated payments and role-based dashboards.",
+    tags: ["Java", "Spring Boot", "MongoDB", "React", "WebSocket", "Leaflet", "Docker"],
+    link: "https://swiftmovee.netlify.app/",
+    linkText: "View Live",
   },
   {
     number: "02",
-    title: "Manasmitra — Wellness Platform",
-    desc: "Student wellness support platform featuring an anonymous discussion forum and responsive UI. Designed for scalability. Team project — currently in prototype stage.",
-    tags: ["HTML", "CSS", "JavaScript", "Git", "GitHub"],
-    link: null,
-    linkText: null,
+    title: "Serina — Private AI Assistant with Document Q&A",
+    desc: "Microservice-based AI chatbot that answers questions from uploaded PDFs using RAG with local LLM inference, vector semantic search, and persistent chat history, containerized and served through a React interface.",
+    tags: ["Python", "FastAPI", "React", "Ollama", "Qdrant", "PostgreSQL", "Docker"],
+    link: "https://github.com/kuldeepyadav001/serina",
+    linkText: "View Code",
   },
   {
     number: "03",
-    title: "Arcana — Library Management",
-    desc: "Modular web application for book cataloging, user registration, and admin controls based on CRUD operations. Improving efficiency and accessibility.",
-    tags: ["HTML", "CSS", "JavaScript", "Python", "Flask", "JSON"],
-    link: null,
-    linkText: null,
+    title: "Spicest — E-Commerce Webpage",
+    desc: "Production-ready spice e-commerce web app with 8 pages including dynamic product catalog, weight-based pricing, filter/sort, persistent cart, multi-step checkout with 4 payment UIs, and order success flow. SSG for SEO with automated CI/CD.",
+    tags: ["Next.js", "React", "Tailwind CSS", "Framer Motion"],
+    link: "https://spicest.vercel.app/",
+    linkText: "View Live",
   },
-
   {
     number: "04",
-    title: "Personal Portfolio",
-    desc: "Web portfolio showcasing projects, skills, and contact information with clean, responsive design.",
-    tags: ["HTML", "CSS", " JavaScript"],
-    link: "https://kuldeepf.netlify.app/",
-    linkText: "View Live",
+    title: "Student Performance Dashboard",
+    desc: "ML-powered analytics platform that cleans and processes student datasets, trains a RandomForest model to predict performance outcomes, and visualizes insights through an interactive React dashboard backed by a Flask REST API.",
+    tags: ["Python", "Flask", "Scikit-learn", "Pandas", "React"],
+    link: "https://github.com/kuldeepyadav001/STUDENT_DATA_PROJECT",
+    linkText: "View Code",
+  },
+  {
+    number: "05",
+    title: "Manasmitra — Wellness Platform",
+    desc: "Student wellness support platform featuring an anonymous discussion forum and a responsive UI, designed for scalability across devices. Team project — currently in prototype stage.",
+    tags: ["HTML", "CSS", "JavaScript", "Git", "GitHub"],
+    link: null,
+    linkText: null,
   },
 ];
 
@@ -77,9 +91,9 @@ const CERTS = [
     date: "September 2025",
   },
   {
-    issuer: "TATA Foundation",
-    name: "Data Visualisation",
-    date: "September 2025",
+    issuer: "NPTEL",
+    name: "Object Oriented System Development (UML, Java & Patterns)",
+    date: "2025",
   },
   {
     issuer: "Cisco Networking Academy",
@@ -94,6 +108,7 @@ const ACHIEVEMENTS = [
   { icon: "⭐", title: "5-Star Problem Solving", sub: "HackerRank" },
   { icon: "🐍", title: "5-Star Python", sub: "HackerRank" },
   { icon: "☕", title: "5-Star Java", sub: "HackerRank" },
+  { icon: "🏆", title: "Qualified — SIH Internal Hackathon", sub: "2025" },
 ];
 
 /* ─────────────────────────────────────────────
