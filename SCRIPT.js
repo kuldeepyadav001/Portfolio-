@@ -79,8 +79,8 @@ const PROJECTS = [
     title: "Manasmitra — Wellness Platform",
     desc: "Student wellness support platform featuring an anonymous discussion forum and a responsive UI, designed for scalability across devices. Team project — currently in prototype stage.",
     tags: ["HTML", "CSS", "JavaScript", "Git", "GitHub"],
-    link: null,
-    linkText: null,
+    link: "https://github.com/viraatt/clg_miniproject1",
+    linkText: "View Code",
   },
 ];
 
